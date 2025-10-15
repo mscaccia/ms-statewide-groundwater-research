@@ -1,14 +1,14 @@
 import arcpy
 
 #path to arc workspace
-arcpy.env.workspace = r"C:\Users\10216172\OneDrive - State of Ohio\Desktop\MS_UC\WilliamsCoWells\WellsWilliamsCo.gdb"
+arcpy.env.workspace = r"C:\Users\scacc\Desktop\MS_UC\Repositories\ms-statewide-groundwater-research\WilliamsCoWells\WellsWilliamsCo.gdb"
 arcpy.env.overwriteOutput = True
 arcpy.CheckOutExtension("Spatial")
 
 
 #input data
-well_points = r"C:\Users\10216172\OneDrive - State of Ohio\Desktop\MS_UC\WilliamsCoWells\WellsWilliamsCo.gdb\WellLogs_Williams"
-geo_forms = r"C:\Users\10216172\OneDrive - State of Ohio\Desktop\MS_UC\WilliamsCoWells\GEO_FORM_WilliamsCo.txt"
+well_points = r"C:\Users\scacc\Desktop\MS_UC\Repositories\ms-statewide-groundwater-research\WilliamsCoWells\WellsWilliamsCo.gdb\WellLogs_Williams"
+geo_forms = r"C:\Users\scacc\Desktop\MS_UC\Repositories\ms-statewide-groundwater-research\WilliamsCoWells\GEO_FORM_WilliamsCo.csv"
 
 #join the two tables based on a common field
 arcpy.management.JoinField(
