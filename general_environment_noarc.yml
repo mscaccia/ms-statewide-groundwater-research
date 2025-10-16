@@ -1,0 +1,51 @@
+name: ms_env
+channels:
+  - conda-forge
+  - pkgs/main
+  - esri
+dependencies:
+  - python
+  #Interface Group
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - tqdm
+  #Visualization Group 
+  - seaborn
+  - altair-all
+  - matplotlib
+  - plotly
+  #Computational Group
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - flopy
+  #Data Tools Group
+  - numpy
+  - pandas
+  - xarray
+  - pytables
+  - dask
+  - h5py
+  - hdf5
+  - requests
+  - pyarrow
+  #Data Group
+  - census
+  - us
+  #Image processing
+  - imageio
+  - scikit-image
+  #GIS Group
+  #- arcpy == 3.4
+  - geopandas >= 1.0
+  - rasterio
+  - rtree
+  - cartopy
+  - contextily
+  - earthengine-api
+  #Pip-only group
+  - pip
+  - pip:
+    - rasterstats
+    - tenacity

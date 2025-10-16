@@ -1,7 +1,7 @@
 import arcpy
 
 #path to arc workspace
-arcpy.env.workspace = r"C:\Users\10216172\OneDrive - State of Ohio\Desktop\MS_UC\WilliamsCoWells\WellsWilliamsCo.gdb"
+arcpy.env.workspace = r"C:\Users\scacc\Desktop\MS_UC\Repositories\ms-statewide-groundwater-research\WilliamsCoWells\WellsWilliamsCo.gdb"
 arcpy.env.overwriteOutput = True
 arcpy.CheckOutExtension("Spatial")
 
